@@ -1,0 +1,40 @@
+1)To get string as
+
+public class Main{
+public static void main(String[] args){
+String s="ABCD";
+System.out.println(s);
+}
+//The output is: ABCD
+
+
+2) To get the input string from user as
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter the string :");
+String s=sc.nextLine();
+//when we have print
+System.out.println(s);
+}
+}//The output is: Enter the string: ABCD
+                  //ABCD
+
+
+3)To print specific index of an String
+//when we have to use the function as input.charAt(index_value);
+import java.util.Scanner;
+public class Main{
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter the String :");
+String s=sc.nextLine();
+System.out.print(s.charAt(0));
+}
+}//Output are : Enter the String : mobile
+              //m
+
+4)
+
+
