@@ -35,6 +35,39 @@ System.out.print(s.charAt(0));
 }//Output are : Enter the String : mobile
               //m
 
-4)
+4)To Reverse the given String
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       String s=sc.nextLine();
+       for(int i=s.length()-1;i>=0;i--){
+           System.out.print(s.charAt(i));
+       }
+    }
+}
+//Output   input: adam
+           output: mada    
+
+5)//To check the given string is palindrome or not
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       String s=sc.nextLine();
+       String m="";
+       for(int i=s.length()-1;i>=0;i--){
+           m=m+s.charAt(i);
+      }
+       if(m.equals(s)){
+           System.out.print("It is a palindrome");
+       }else{
+           System.out.println("It is not a palindrome");
+       }
+    }
+}
+// Output is   input:madam output: It is palindrome
+               input:asia  output:It is not a palindrome
+
 
 
